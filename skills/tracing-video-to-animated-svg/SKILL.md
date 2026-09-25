@@ -81,10 +81,17 @@ units: source pixels times the scale (4), measured from the reconstruction windo
 
 ## Worked example
 
-The PedalTopia hero (a bicycle-plane with a pedaling rider and a towed banner) was built this way.
-Its generator, if present, is in `F:\Miscellaneous\GitHub\gve-site\scripts\ride-bike\`:
-`gen.py` (parts and shading), `rider.py` (limbs, clothing, rig), `banner.py` (cloth slices), and
-`build.py` (assembly, namespacing, anchors). Reference numbers: window 960x230 at 4x (viewBox
-3840x920), 73-frame median stack, cadence of about 118 to 120 frames, 36-step keyframes. Two of its
-choices depart from the footage on purpose: the restyled banner and a slightly faster 3.6 s cadence.
-Re-measure rather than copy its constants.
+The method was developed on a website hero traced from a 1080p marketing video: a bicycle-plane
+with a pedaling rider, towing a lettered cloth banner. Its generator was split into four modules:
+- **Parts and shading:** wheels, tubes, and the fairings.
+- **The figure:** limbs, clothing, and the rig.
+- **The cloth:** banner slices.
+- **The build:** assembly, namespacing, and anchors.
+
+Reference numbers:
+- A 960x230 window at 4x, so a 3840x920 viewBox.
+- A 73-frame median stack.
+- A cadence of about 118 to 120 frames.
+- 36-step keyframes.
+
+Those numbers belong to that footage; measure your own rather than copying them.
