@@ -318,7 +318,7 @@ This project is [MIT](./LICENSE) licensed.
 [github-link]: https://github.com/ahnafnafee/tracing-video-to-animated-svg
 [github-stars-link]: https://github.com/ahnafnafee/tracing-video-to-animated-svg/stargazers
 [github-stars-shield]: https://img.shields.io/github/stars/ahnafnafee/tracing-video-to-animated-svg?color=ffcb47&labelColor=black&style=flat-square
-[image-banner]: ./assets/banner.svg
+[image-banner]: ./assets/cover.svg
 [install-link]: #-installation
 [install-shield]: https://img.shields.io/badge/npx%20skills%20add-ahnafnafee%2Ftracing--video--to--animated--svg-8ae8ff?labelColor=black&style=flat-square
 [pr-welcome-link]: https://github.com/ahnafnafee/tracing-video-to-animated-svg/pulls
